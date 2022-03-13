@@ -10,7 +10,7 @@ import (
 
 func main() {
 	// Feel free to use the main function for testing your functions
-	people := PersonSlice{NewPerson("Aslan", "Bolat"), NewPerson("Zhandos", "Loh"), NewPerson("Daryn", "Chert")}
+	people := PersonSlice{NewPerson("Yerke", "Genius"), NewPerson("Tommy", "Queen"), NewPerson("Daryn", "Online")}
 	fmt.Printf("Before: %v\n", people)
 	sort.Sort(people)
 	fmt.Printf("After: %v\n", people)
